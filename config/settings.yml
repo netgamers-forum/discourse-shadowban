@@ -4,4 +4,4 @@ plugins:
   shadowban_users:
     default: ""
   shadowban_show_to_staff:
-    default: true
+    default: false
