@@ -5,6 +5,9 @@
 # url: https://github.com/netgamers-forum/discourse-shadowban
 enabled_site_setting :shadowban_enabled
 
+module ::MyPluginModule
+    PLUGIN_NAME = "discourse-shadowban"
+end
 
 after_initialize do
 
